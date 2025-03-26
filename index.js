@@ -158,7 +158,7 @@ function checkGameOver() {
 function displayGameOver() {
     ctx.fillStyle = "green";
     ctx.font = "50px cursive";
-    ctx.fillText("I love you Irish", gameWidth / 3.5, gameHeight / 2);
+    ctx.fillText("Game Over", gameWidth / 3.5, gameHeight / 2);
 }
 
 function resetGame() {
